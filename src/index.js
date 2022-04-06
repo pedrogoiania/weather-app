@@ -7,19 +7,14 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView, ScrollView, StatusBar, Text, View,
-} from 'react-native';
+
+import { NavigationContainer } from '@react-navigation/native';
+import StackNavigator from 'navigation';
 
 const App = () => (
-  <SafeAreaView>
-    <StatusBar />
-    <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <View>
-        <Text>App</Text>
-      </View>
-    </ScrollView>
-  </SafeAreaView>
+  <NavigationContainer>
+    <StackNavigator />
+  </NavigationContainer>
 );
 
 export default App;
