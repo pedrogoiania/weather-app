@@ -15,6 +15,7 @@
                     "screens": "./src/screens",
                     "components": "./src/components",
                     "navigation": "./src/navigation",
+                    "utils": "./src/utils",
                     "test": "./__tests__"
                 }
             }
