@@ -4,6 +4,8 @@ import Geolocation from 'react-native-geolocation-service';
 
 import { openSettings } from 'react-native-permissions';
 
+import strings from 'utils/strings';
+
 const errorCodes = {
   INTERNAL_ERROR: '-1',
   PERMISSION_DENIED: 1,
@@ -21,14 +23,14 @@ const locationAuthorizationStatus = {
 };
 
 const alertOptions = {
-  title: 'Localização',
-  message: 'Permissão de localização negada. Deseja habilitar a localização?',
+  title: strings.localizationAlertOptionsTitle,
+  message: strings.localizationAlertOptionsMessage,
   cancelButton: {
-    text: 'Cancelar',
+    text: strings.localizationAlertOptionsCancelButton,
     style: 'cancel',
   },
   actionButton: {
-    text: 'Ok',
+    text: strings.localizationAlertOptionsActionButton,
     onPress: () => openSettings(),
   },
 };
@@ -54,11 +56,7 @@ const requestAuthorization = async () => {
 };
 
 const getCurrentLocation = async () => {
-  const resultPosition = async (position) => {
-    console.log('position: ', position);
-
-    return position;
-  };
+  const resultPosition = async (position) => position;
 
   const resultError = async (error) => {
     if (error.code === errorCodes.PERMISSION_DENIED) {
