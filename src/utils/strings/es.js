@@ -3,4 +3,7 @@ export default {
   localizationAlertOptionsMessage: 'Permiso de geolocalización denegado. ¿Quieres habilitar la geolocalización?',
   localizationAlertOptionsCancelButton: 'Cancelar',
   localizationAlertOptionsActionButton: 'OK',
+
+  tabbarWeatherInformationsTitle: 'Tiempo',
+  tabbarSettingsTitle: 'Ajustes',
 };

@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 
 const Settings = () => (
   <View>
-    <Text>Weather Informations</Text>
+    <Text>Settings</Text>
   </View>
 );
 
