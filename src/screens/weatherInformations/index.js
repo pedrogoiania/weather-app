@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 
-import {
-  View, Text,
-} from 'react-native';
+import { View } from 'react-native';
+
+import Text from 'components/text';
 
 import geolocation from 'utils/geolocation';
+
+import styles from './styles';
 
 const WeatherInformations = () => {
   const getCurrentLocation = async () => {
@@ -22,8 +24,10 @@ const WeatherInformations = () => {
   }, []);
 
   return (
-    <View>
-      <Text>Weather Informations</Text>
+    <View style={styles.container}>
+      <Text.Bold style={styles.text}>
+        Weather Informations
+      </Text.Bold>
     </View>
   );
 };
