@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { View } from 'react-native';
 
@@ -9,19 +9,26 @@ import geolocation from 'utils/geolocation';
 import styles from './styles';
 
 const WeatherInformations = () => {
+  const [coords, setCoords] = useState(null);
+
   const getCurrentLocation = async () => {
     try {
       const geolocationData = await geolocation.getCurrentLocation();
-      console.log('geolocationData: ', geolocationData);
+      setCoords(geolocationData.coords);
     } catch (e) {
       geolocation.requestAuthorization();
-      console.log('error: ', e);
     }
   };
 
   useEffect(() => {
     getCurrentLocation();
   }, []);
+
+  useEffect(() => {
+    if (coords) {
+      console.log(coords);
+    }
+  }, [coords]);
 
   return (
     <View style={styles.container}>

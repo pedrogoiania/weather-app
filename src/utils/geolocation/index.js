@@ -55,22 +55,21 @@ const requestAuthorization = async () => {
   }
 };
 
-const getCurrentLocation = async () => {
-  const resultPosition = async (position) => position;
+const getCurrentLocation = () => new Promise((resolve, reject) => {
+  const resultPosition = async (position) => resolve(position);
 
   const resultError = async (error) => {
     if (error.code === errorCodes.PERMISSION_DENIED) {
       requestAuthorization();
     }
-    return error;
+    reject(error);
   };
 
   Geolocation.getCurrentPosition(
     resultPosition,
     resultError,
   );
-};
-
+});
 export default {
   getCurrentLocation,
   requestAuthorization,
