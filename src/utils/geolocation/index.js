@@ -65,9 +65,12 @@ const getCurrentLocation = () => new Promise((resolve, reject) => {
     reject(error);
   };
 
+  const geolocationOptions = { enableHighAccuracy: true, timeout: 60, maximumAge: 1 };
+
   Geolocation.getCurrentPosition(
     resultPosition,
     resultError,
+    geolocationOptions,
   );
 });
 export default {

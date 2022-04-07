@@ -7,11 +7,19 @@ export default StyleSheet.create({
   container: {
     backgroundColor: colors.dark,
     flex: 1,
-    justifyContent: 'center',
+  },
+  loadingContainer: {
     alignItems: 'center',
+    backgroundColor: colors.dark,
+    flex: 1,
+    justifyContent: 'center',
   },
   text: {
     color: colors.white,
     fontSize: fontSize.xLarge,
+  },
+  temps: {
+    color: colors.white,
+    fontSize: fontSize.small,
   },
 });

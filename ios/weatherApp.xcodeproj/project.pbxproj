@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* weatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* weatherAppTests.m */; };
+		0CA8C4403B8342CAA21216D8 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2FA093A5344B4D8B963F27F2 /* RobotoSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */; };
 		49E4DABA3963D493FA3DB94B /* libPods-weatherApp-weatherAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4793A9ADC0B57267B8E0759 /* libPods-weatherApp-weatherAppTests.a */; };
+		4CA2D63773E343AF8E8AEE09 /* RobotoSlab-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */; };
+		51FE175BC4FC4A70A3694E3B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */; };
+		6451A2D06740422282DB0A09 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */; };
+		66C6EF7ACB4B48269EF48421 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */; };
+		6ED832C109074C98A321759A /* RobotoSlab-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */; };
+		6F29035B418C49C5B8824BF2 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83215564E805FBC51490B0C8 /* libPods-weatherApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D02509AD5E7DE0A83BA08F45 /* libPods-weatherApp.a */; };
 		A5C2AAC027FE88ED00050604 /* GeolocationIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2AABF27FE88ED00050604 /* GeolocationIntegration.swift */; };
-		4CA2D63773E343AF8E8AEE09 /* RobotoSlab-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */; };
-		51FE175BC4FC4A70A3694E3B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */; };
-		6ED832C109074C98A321759A /* RobotoSlab-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */; };
 		D83350E6155A4493A6683DAA /* RobotoSlab-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7836F3C24E4896BE70C982 /* RobotoSlab-ExtraLight.ttf */; };
-		66C6EF7ACB4B48269EF48421 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */; };
-		6451A2D06740422282DB0A09 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */; };
-		6F29035B418C49C5B8824BF2 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */; };
-		2FA093A5344B4D8B963F27F2 /* RobotoSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */; };
-		0CA8C4403B8342CAA21216D8 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,30 +41,30 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* weatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherAppTests.m; sourceTree = "<group>"; };
 		1161A17FF710A3B54120638A /* Pods-weatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherApp.debug.xcconfig"; path = "Target Support Files/Pods-weatherApp/Pods-weatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-ExtraBold.ttf"; path = "../src/assets/fonts/RobotoSlab-ExtraBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = weatherApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = weatherApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = weatherApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = weatherApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = weatherApp/main.m; sourceTree = "<group>"; };
+		20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-SemiBold.ttf"; path = "../src/assets/fonts/RobotoSlab-SemiBold.ttf"; sourceTree = "<group>"; };
+		25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Bold.ttf"; path = "../src/assets/fonts/RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		2FD9A55D707E7BFC4F08637C /* Pods-weatherApp-weatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherApp-weatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-weatherApp-weatherAppTests/Pods-weatherApp-weatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Light.ttf"; path = "../src/assets/fonts/RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Thin.ttf"; path = "../src/assets/fonts/RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../src/assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		6D7836F3C24E4896BE70C982 /* RobotoSlab-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-ExtraLight.ttf"; path = "../src/assets/fonts/RobotoSlab-ExtraLight.ttf"; sourceTree = "<group>"; };
 		77F4E4B873336FCEE8594227 /* Pods-weatherApp-weatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherApp-weatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-weatherApp-weatherAppTests/Pods-weatherApp-weatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Medium.ttf"; path = "../src/assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = weatherApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F4B7F8926C88AE37FA9FC2 /* Pods-weatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherApp.release.xcconfig"; path = "Target Support Files/Pods-weatherApp/Pods-weatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Black.ttf"; path = "../src/assets/fonts/RobotoSlab-Black.ttf"; sourceTree = "<group>"; };
 		A5C2AABE27FE88EC00050604 /* weatherApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weatherApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		A5C2AABF27FE88ED00050604 /* GeolocationIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationIntegration.swift; sourceTree = "<group>"; };
 		B4793A9ADC0B57267B8E0759 /* libPods-weatherApp-weatherAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weatherApp-weatherAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02509AD5E7DE0A83BA08F45 /* libPods-weatherApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weatherApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Black.ttf"; path = "../src/assets/fonts/RobotoSlab-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Bold.ttf"; path = "../src/assets/fonts/RobotoSlab-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-ExtraBold.ttf"; path = "../src/assets/fonts/RobotoSlab-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6D7836F3C24E4896BE70C982 /* RobotoSlab-ExtraLight.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-ExtraLight.ttf"; path = "../src/assets/fonts/RobotoSlab-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Light.ttf"; path = "../src/assets/fonts/RobotoSlab-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Medium.ttf"; path = "../src/assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Regular.ttf"; path = "../src/assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-SemiBold.ttf"; path = "../src/assets/fonts/RobotoSlab-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; name = "RobotoSlab-Thin.ttf"; path = "../src/assets/fonts/RobotoSlab-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +140,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		78A272331C41402281C40C2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */,
+				25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */,
+				11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */,
+				6D7836F3C24E4896BE70C982 /* RobotoSlab-ExtraLight.ttf */,
+				34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */,
+				80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */,
+				68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */,
+				20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */,
+				55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,23 +188,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		78A272331C41402281C40C2F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				96799B56A79C4BC39C1DC133 /* RobotoSlab-Black.ttf */,
-				25AC142DAE2148A1B8DF6D9C /* RobotoSlab-Bold.ttf */,
-				11D4502BC31D4CEE8B5D5FF4 /* RobotoSlab-ExtraBold.ttf */,
-				6D7836F3C24E4896BE70C982 /* RobotoSlab-ExtraLight.ttf */,
-				34FD6B8494CA437791085D49 /* RobotoSlab-Light.ttf */,
-				80B00AFE9CD84DCFB904F1E4 /* RobotoSlab-Medium.ttf */,
-				68204AA135D44344B54CB1A6 /* RobotoSlab-Regular.ttf */,
-				20A8AB6AF6A34A11A8B8665D /* RobotoSlab-SemiBold.ttf */,
-				55E71D63808E4A2F936250BF /* RobotoSlab-Thin.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

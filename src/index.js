@@ -10,10 +10,15 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import StackNavigator from 'navigation';
 
+import { ApolloProvider } from '@apollo/react-hooks';
+import client from './apollo/client';
+
 const App = () => (
-  <NavigationContainer>
-    <StackNavigator />
-  </NavigationContainer>
+  <ApolloProvider client={client}>
+    <NavigationContainer>
+      <StackNavigator />
+    </NavigationContainer>
+  </ApolloProvider>
 );
 
 export default App;
