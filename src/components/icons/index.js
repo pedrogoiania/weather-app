@@ -6,6 +6,8 @@ import locationInactive from './location-inactive.svg';
 import settingsActive from './settings-active.svg';
 import settingsInactive from './settings-inactive.svg';
 
+import weatherIcons from './weatherIcons';
+
 const LocationActive = () => <SvgXml width="24" height="24" xml={locationActive} />;
 const LocationInactive = () => <SvgXml width="24" height="24" xml={locationInactive} />;
 const SettingsActive = () => <SvgXml width="24" height="24" xml={settingsActive} />;
@@ -16,4 +18,5 @@ export default {
   LocationInactive,
   SettingsActive,
   SettingsInactive,
+  ...weatherIcons,
 };

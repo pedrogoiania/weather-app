@@ -10,6 +10,7 @@ export const GET_WEATHER_BY_GEOLOCATION = gql`
                 tempMin
                 tempMax
                 location
+                icon
             }
         }
 `;

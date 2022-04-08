@@ -7,9 +7,19 @@ import Text from 'components/text';
 import geolocation from 'utils/geolocation';
 
 import Weather from 'models/Weather';
+import Icons from 'components/icons';
 import { GET_WEATHER_BY_GEOLOCATION } from './index.graphql';
 
 import styles from './styles';
+
+const weatherIconEnum = {
+  clearSky: <Icons.Clear />,
+  clearSkyNight: <Icons.ClearNight />,
+  fewClouds: <Icons.CloudyClear />,
+  fewCloudsNight: <Icons.CloudyClearNight />,
+  scatteredClouds: <Icons.Cloudy />,
+  scatteredCloudsNight: <Icons.CloudyClearNight />,
+};
 
 const WeatherInformations = () => {
   const [coords, setCoords] = useState(null);
@@ -56,37 +66,51 @@ const WeatherInformations = () => {
   }
 
   if (called && data) {
-    console.log(data);
     const weather = Weather(data.getWeatherByGeoLocation);
-
-    console.log(weather);
-
     return (
       <SafeAreaView style={styles.container}>
-        <View style={{ alignItems: 'center', marginTop: 50 }}>
-          <Text.Bold style={styles.text}>
+        <View style={styles.locationContainer}>
+          <Text.Bold style={styles.locationText}>
             {weather.location}
           </Text.Bold>
         </View>
-
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 50 }}>
-
-          <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
-            <Text style={styles.temps}>
-              {`temp: \n${weather.temp}`}
+        <View style={styles.temperatureContainer}>
+          <View style={styles.temperatureIcon}>
+            {weatherIconEnum[weather.icon]}
+          </View>
+          <View style={styles.temperatureTextContainer}>
+            <Text style={styles.temperatureText}>
+              {`${weather.temp} °C`}
             </Text>
           </View>
+        </View>
 
-          <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
-            <Text style={styles.temps}>
-              {`tempMax: \n${weather.tempMax}`}
-            </Text>
+        <View style={styles.tempsWidgetsContainer}>
+          <View style={styles.tempsContainer}>
+            <Text.Bold style={styles.temps}>
+              Máxima:
+            </Text.Bold>
+            <Text.Light style={styles.temps}>
+              {`${weather.tempMax} °C`}
+            </Text.Light>
           </View>
 
-          <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
-            <Text style={styles.temps}>
-              {`tempMin: \n${weather.tempMin}`}
-            </Text>
+          <View style={styles.tempsContainer}>
+            <Text.Bold style={styles.temps}>
+              Mínima:
+            </Text.Bold>
+            <Text.Light style={styles.temps}>
+              {`${weather.tempMin} °C`}
+            </Text.Light>
+          </View>
+
+          <View style={styles.tempsContainer}>
+            <Text.Bold style={styles.temps}>
+              Sensação:
+            </Text.Bold>
+            <Text.Light style={styles.temps}>
+              {`${weather.feelsLike} °C`}
+            </Text.Light>
           </View>
 
         </View>

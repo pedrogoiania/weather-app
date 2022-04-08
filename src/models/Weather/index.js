@@ -6,6 +6,7 @@ const Weather = (weatherData) => {
   const { tempMin } = weatherData;
   const { tempMax } = weatherData;
   const { location } = weatherData;
+  const { icon } = weatherData;
 
   return {
     main,
@@ -15,6 +16,7 @@ const Weather = (weatherData) => {
     tempMin,
     tempMax,
     location,
+    icon,
   };
 };
 
