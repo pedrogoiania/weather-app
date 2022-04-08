@@ -12,9 +12,21 @@ cd ..
 yarn ios
 ```
 
+Run the following commands to run on android
+
+⚠️  __Don't forget:__
+ - __create a Android emulator__ 
+ - __in dev mode, you need to set location permission manualy__
+```
+yarn
+yarn android
+```
+
+
 ### Demo
 
 ![iOS Example](./readme/screen-shot.png?raw=true "iOS Example")
+![Android Example](./readme/android-screen-shot.png?raw=true "Android Example")
 
 ### Commit rules 
 
