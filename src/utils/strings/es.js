@@ -7,7 +7,8 @@ export default {
   tabbarWeatherInformationsTitle: 'Tiempo',
   tabbarSettingsTitle: 'Ajustes',
 
-  tempMax: 'Máx :',
+  tempMax: 'Máx:',
   tempMin: 'Mín: ',
   feelsLike: 'Sensación: ',
+  refreshData: 'Refresh Data',
 };

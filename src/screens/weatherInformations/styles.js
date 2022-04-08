@@ -57,4 +57,5 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  buttonContainer: { marginBottom: 50 },
 });
