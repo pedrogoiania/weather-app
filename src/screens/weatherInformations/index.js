@@ -8,6 +8,7 @@ import geolocation from 'utils/geolocation';
 
 import Weather from 'models/Weather';
 import Icons from 'components/icons';
+import strings from 'utils/strings';
 import { GET_WEATHER_BY_GEOLOCATION } from './index.graphql';
 
 import styles from './styles';
@@ -88,7 +89,7 @@ const WeatherInformations = () => {
         <View style={styles.tempsWidgetsContainer}>
           <View style={styles.tempsContainer}>
             <Text.Bold style={styles.temps}>
-              Máxima:
+              {strings.tempMax}
             </Text.Bold>
             <Text.Light style={styles.temps}>
               {`${weather.tempMax} °C`}
@@ -97,7 +98,7 @@ const WeatherInformations = () => {
 
           <View style={styles.tempsContainer}>
             <Text.Bold style={styles.temps}>
-              Mínima:
+              {strings.tempMin}
             </Text.Bold>
             <Text.Light style={styles.temps}>
               {`${weather.tempMin} °C`}
@@ -106,7 +107,7 @@ const WeatherInformations = () => {
 
           <View style={styles.tempsContainer}>
             <Text.Bold style={styles.temps}>
-              Sensação:
+              {strings.feelsLike}
             </Text.Bold>
             <Text.Light style={styles.temps}>
               {`${weather.feelsLike} °C`}
